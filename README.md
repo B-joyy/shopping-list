@@ -1,4 +1,4 @@
-# Shopping List
+# [Shopping List](https://b-joyy.github.io/shopping-list/)
 
 ---
 
