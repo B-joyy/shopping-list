@@ -7,9 +7,19 @@ function inputLength() {
 }
 
 function createListElement() {
+  var div = document.createElement("div");
   var li = document.createElement("li");
+  var delBtn = document.createElement("button");
+
+  div.classList.add("wrapper");
+  delBtn.classList.add("del-btn");
+
   li.appendChild(document.createTextNode(input.value));
-  ul.appendChild(li);
+  delBtn.textContent = "DEL";
+
+  div.appendChild(li);
+  div.appendChild(delBtn);
+  ul.appendChild(div);
   input.value = "";
 }
 
