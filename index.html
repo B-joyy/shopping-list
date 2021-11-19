@@ -6,42 +6,47 @@
   </head>
 
   <body>
-    <h1>Shopping List</h1>
-    <p id="first">Get it done today</p>
-    <input id="userinput" type="text" placeholder="enter items" />
-    <button id="enter">Enter</button>
+    <div class="container">
+      <h1 class="coolTitle">Shopping List</h1>
+      <h3 id="first">Get it done today</h3>
 
-    <ul>
-      <div class="item">
-        <li>Notebook</li>
-        <button>DELETE</button>
+      <div class="wrapper">
+        <input id="userinput" type="text" placeholder="enter items" />
+        <button id="enter">Enter</button>
       </div>
 
-      <div class="item">
-        <li>Jello</li>
-        <button>DELETE</button>
-      </div>
+      <ul>
+        <div class="wrapper">
+          <li>Notebook</li>
+          <button class="del-btn">DEL</button>
+        </div>
 
-      <div class="item">
-        <li>Spinach</li>
-        <button>DELETE</button>
-      </div>
+        <div class="wrapper">
+          <li>Jello</li>
+          <button class="del-btn">DEL</button>
+        </div>
 
-      <div class="item">
-        <li>Rice</li>
-        <button>DELETE</button>
-      </div>
+        <div class="wrapper">
+          <li>Spinach</li>
+          <button class="del-btn">DEL</button>
+        </div>
 
-      <div class="item">
-        <li>Birthday Cake</li>
-        <button>DELETE</button>
-      </div>
+        <div class="wrapper">
+          <li>Rice</li>
+          <button class="del-btn">DEL</button>
+        </div>
 
-      <div class="item">
-        <li>Candles</li>
-        <button>DELETE</button>
-      </div>
-    </ul>
+        <div class="wrapper">
+          <li>Birthday Cake</li>
+          <button class="del-btn">DEL</button>
+        </div>
+
+        <div class="wrapper">
+          <li>Candles</li>
+          <button class="del-btn">DEL</button>
+        </div>
+      </ul>
+    </div>
 
     <script type="text/javascript" src="script.js"></script>
   </body>
